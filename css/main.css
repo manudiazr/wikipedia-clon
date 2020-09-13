@@ -203,16 +203,16 @@ main {
   margin: 20px 0 20px;
 }
 .container-recurso__descargas{
+  display: flex;
   background-color:  #F8F9FA ;
   height: 195px;
 }
-.descargas__description{
-  display: flex;
-}
 .container__logo-download{
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  margin-top: 30px;
 }
+
 .container-recurso:last-child{
   width: 70vw;
   display: flex;
@@ -226,17 +226,39 @@ main {
   padding: 0 20px;
   margin: 20px 0;
 }
+.description__logo-wikimedia{
+  width: 70px;
+}
 
-.description__logo{
-width: 70px;
+.description__logo-w {
+width: 40px;
+padding: 0 10px;
+margin: 0 5px;
 }
  .description__logo-download{
   width: 120px;
  }
+ .descargas__description span {
+   margin-bottom: 20px;
+   font-weight: bold;
+   display: inline-block;
+ }
 
 .item-recurso__logo{
-  width: 50px;
+  width: 40px;
+  margin: 5px;
 }
 .item-recurso a {
   color: #36c;
+}
+/* ------------Footer--------------------- */
+footer p {
+  font-size: 12px;
+  text-align: center;
+}
+footer a {
+  color: #36c;
+}
+footer {
+  padding: 20px 0;
 }
